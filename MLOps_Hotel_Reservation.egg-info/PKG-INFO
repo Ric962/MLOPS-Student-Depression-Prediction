@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: MLOps-Hotel-Reservation
+Version: 0.1
+Author: Uday
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: pyyaml
+Requires-Dist: lightgbm
+Requires-Dist: mlflow
+Requires-Dist: imbalanced-learn
+Requires-Dist: flask
+Dynamic: author
+Dynamic: requires-dist

@@ -4,7 +4,7 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="MLOps-Student-Depression-Prediction",
+    name="MLOps-Hotel-Reservation",
     version="0.1",
     author="Uday",
     packages=find_packages(),
