@@ -1,0 +1,29 @@
+data_ingestion:
+  source_path: "D:/2025/MLOPS/Hotel Reservation Project/Student Depression Dataset.csv"
+  filename: "Student Depression Dataset.csv"
+  train_size: 0.7
+
+data_processing:
+  categorical_columns:
+    - Gender
+    - Dietary Habits
+    - Have you ever had suicidal thoughts ?
+    - Sleep Duration
+    - Family History of Mental Illness
+
+  numerical_columns:
+    - Age
+    - Academic Pressure
+    - CGPA
+    - Study Satisfaction
+    - Work/Study Hours
+    - Financial Stress
+
+  binary_columns:
+    - Gender
+    - Have you ever had suicidal thoughts ?
+    - Family History of Mental Illness
+
+  multivariable_columns:
+    - Sleep Duration
+    - Dietary Habits
